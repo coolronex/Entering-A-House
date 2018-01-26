@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97EF876220193D460007527E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF876120193D460007527E /* AppDelegate.m */; };
+		97EF876520193D470007527E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF876420193D470007527E /* ViewController.m */; };
+		97EF876820193D470007527E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97EF876620193D470007527E /* Main.storyboard */; };
+		97EF876A20193D470007527E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EF876920193D470007527E /* Assets.xcassets */; };
+		97EF876D20193D470007527E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97EF876B20193D470007527E /* LaunchScreen.storyboard */; };
+		97EF877020193D470007527E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF876F20193D470007527E /* main.m */; };
+		97EF877A20193D470007527E /* Entering_A_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF877920193D470007527E /* Entering_A_HouseTests.m */; };
+		97EF878520193D470007527E /* Entering_A_HouseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF878420193D470007527E /* Entering_A_HouseUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97EF877620193D470007527E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97EF875520193D460007527E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97EF875C20193D460007527E;
+			remoteInfo = "Entering A House";
+		};
+		97EF878120193D470007527E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97EF875520193D460007527E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97EF875C20193D460007527E;
+			remoteInfo = "Entering A House";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97EF875D20193D460007527E /* Entering A House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Entering A House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EF876020193D460007527E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97EF876120193D460007527E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97EF876320193D470007527E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97EF876420193D470007527E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97EF876720193D470007527E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97EF876920193D470007527E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97EF876C20193D470007527E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97EF876E20193D470007527E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EF876F20193D470007527E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97EF877520193D470007527E /* Entering A HouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Entering A HouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EF877920193D470007527E /* Entering_A_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Entering_A_HouseTests.m; sourceTree = "<group>"; };
+		97EF877B20193D470007527E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EF878020193D470007527E /* Entering A HouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Entering A HouseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EF878420193D470007527E /* Entering_A_HouseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Entering_A_HouseUITests.m; sourceTree = "<group>"; };
+		97EF878620193D470007527E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97EF875A20193D460007527E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EF877220193D470007527E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EF877D20193D470007527E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97EF875420193D460007527E = {
+			isa = PBXGroup;
+			children = (
+				97EF875F20193D460007527E /* Entering A House */,
+				97EF877820193D470007527E /* Entering A HouseTests */,
+				97EF878320193D470007527E /* Entering A HouseUITests */,
+				97EF875E20193D460007527E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97EF875E20193D460007527E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97EF875D20193D460007527E /* Entering A House.app */,
+				97EF877520193D470007527E /* Entering A HouseTests.xctest */,
+				97EF878020193D470007527E /* Entering A HouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97EF875F20193D460007527E /* Entering A House */ = {
+			isa = PBXGroup;
+			children = (
+				97EF876020193D460007527E /* AppDelegate.h */,
+				97EF876120193D460007527E /* AppDelegate.m */,
+				97EF876320193D470007527E /* ViewController.h */,
+				97EF876420193D470007527E /* ViewController.m */,
+				97EF876620193D470007527E /* Main.storyboard */,
+				97EF876920193D470007527E /* Assets.xcassets */,
+				97EF876B20193D470007527E /* LaunchScreen.storyboard */,
+				97EF876E20193D470007527E /* Info.plist */,
+				97EF876F20193D470007527E /* main.m */,
+			);
+			path = "Entering A House";
+			sourceTree = "<group>";
+		};
+		97EF877820193D470007527E /* Entering A HouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				97EF877920193D470007527E /* Entering_A_HouseTests.m */,
+				97EF877B20193D470007527E /* Info.plist */,
+			);
+			path = "Entering A HouseTests";
+			sourceTree = "<group>";
+		};
+		97EF878320193D470007527E /* Entering A HouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97EF878420193D470007527E /* Entering_A_HouseUITests.m */,
+				97EF878620193D470007527E /* Info.plist */,
+			);
+			path = "Entering A HouseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97EF875C20193D460007527E /* Entering A House */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EF878920193D470007527E /* Build configuration list for PBXNativeTarget "Entering A House" */;
+			buildPhases = (
+				97EF875920193D460007527E /* Sources */,
+				97EF875A20193D460007527E /* Frameworks */,
+				97EF875B20193D460007527E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Entering A House";
+			productName = "Entering A House";
+			productReference = 97EF875D20193D460007527E /* Entering A House.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97EF877420193D470007527E /* Entering A HouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EF878C20193D470007527E /* Build configuration list for PBXNativeTarget "Entering A HouseTests" */;
+			buildPhases = (
+				97EF877120193D470007527E /* Sources */,
+				97EF877220193D470007527E /* Frameworks */,
+				97EF877320193D470007527E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EF877720193D470007527E /* PBXTargetDependency */,
+			);
+			name = "Entering A HouseTests";
+			productName = "Entering A HouseTests";
+			productReference = 97EF877520193D470007527E /* Entering A HouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97EF877F20193D470007527E /* Entering A HouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EF878F20193D470007527E /* Build configuration list for PBXNativeTarget "Entering A HouseUITests" */;
+			buildPhases = (
+				97EF877C20193D470007527E /* Sources */,
+				97EF877D20193D470007527E /* Frameworks */,
+				97EF877E20193D470007527E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EF878220193D470007527E /* PBXTargetDependency */,
+			);
+			name = "Entering A HouseUITests";
+			productName = "Entering A HouseUITests";
+			productReference = 97EF878020193D470007527E /* Entering A HouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97EF875520193D460007527E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Aaron Chong";
+				TargetAttributes = {
+					97EF875C20193D460007527E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					97EF877420193D470007527E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97EF875C20193D460007527E;
+					};
+					97EF877F20193D470007527E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97EF875C20193D460007527E;
+					};
+				};
+			};
+			buildConfigurationList = 97EF875820193D460007527E /* Build configuration list for PBXProject "Entering A House" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97EF875420193D460007527E;
+			productRefGroup = 97EF875E20193D460007527E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97EF875C20193D460007527E /* Entering A House */,
+				97EF877420193D470007527E /* Entering A HouseTests */,
+				97EF877F20193D470007527E /* Entering A HouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97EF875B20193D460007527E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EF876D20193D470007527E /* LaunchScreen.storyboard in Resources */,
+				97EF876A20193D470007527E /* Assets.xcassets in Resources */,
+				97EF876820193D470007527E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EF877320193D470007527E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EF877E20193D470007527E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97EF875920193D460007527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EF876520193D470007527E /* ViewController.m in Sources */,
+				97EF877020193D470007527E /* main.m in Sources */,
+				97EF876220193D460007527E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EF877120193D470007527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EF877A20193D470007527E /* Entering_A_HouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EF877C20193D470007527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EF878520193D470007527E /* Entering_A_HouseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97EF877720193D470007527E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97EF875C20193D460007527E /* Entering A House */;
+			targetProxy = 97EF877620193D470007527E /* PBXContainerItemProxy */;
+		};
+		97EF878220193D470007527E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97EF875C20193D460007527E /* Entering A House */;
+			targetProxy = 97EF878120193D470007527E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97EF876620193D470007527E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97EF876720193D470007527E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97EF876B20193D470007527E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97EF876C20193D470007527E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97EF878720193D470007527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97EF878820193D470007527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97EF878A20193D470007527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Entering A House/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AaronChong.Entering-A-House";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97EF878B20193D470007527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Entering A House/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AaronChong.Entering-A-House";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97EF878D20193D470007527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Entering A HouseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AaronChong.Entering-A-HouseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Entering A House.app/Entering A House";
+			};
+			name = Debug;
+		};
+		97EF878E20193D470007527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Entering A HouseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AaronChong.Entering-A-HouseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Entering A House.app/Entering A House";
+			};
+			name = Release;
+		};
+		97EF879020193D470007527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Entering A HouseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AaronChong.Entering-A-HouseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Entering A House";
+			};
+			name = Debug;
+		};
+		97EF879120193D470007527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Entering A HouseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AaronChong.Entering-A-HouseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Entering A House";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97EF875820193D460007527E /* Build configuration list for PBXProject "Entering A House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EF878720193D470007527E /* Debug */,
+				97EF878820193D470007527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EF878920193D470007527E /* Build configuration list for PBXNativeTarget "Entering A House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EF878A20193D470007527E /* Debug */,
+				97EF878B20193D470007527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EF878C20193D470007527E /* Build configuration list for PBXNativeTarget "Entering A HouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EF878D20193D470007527E /* Debug */,
+				97EF878E20193D470007527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EF878F20193D470007527E /* Build configuration list for PBXNativeTarget "Entering A HouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EF879020193D470007527E /* Debug */,
+				97EF879120193D470007527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97EF875520193D460007527E /* Project object */;
+}
